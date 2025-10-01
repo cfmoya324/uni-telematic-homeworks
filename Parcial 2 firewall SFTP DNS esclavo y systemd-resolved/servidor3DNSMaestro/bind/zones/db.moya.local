@@ -1,0 +1,18 @@
+;
+; BIND data file for local loopback interface
+;
+$TTL    604800
+@       IN      SOA     maestro.moya.local. root.moya.local. (
+                              6         ; Serial
+                             60         ; Refresh
+                             60         ; Retry
+                             60         ; Expire
+                         604800 )       ; Negative Cache TTL
+;
+@               IN      NS      maestro.moya.local.
+maestro         IN      A       192.168.56.4
+esclavo         IN      A       192.168.56.3
+firewall	IN      A       192.168.56.2
+slave           IN      CNAME   esclavo
+master          IN      CNAME   maestro
+sftp		IN      CNAME   esclavo
