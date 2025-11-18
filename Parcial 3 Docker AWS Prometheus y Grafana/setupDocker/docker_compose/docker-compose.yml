@@ -1,0 +1,15 @@
+services:
+    web:
+        image: camilofranco90527/stparcial3apache
+        ports:
+        - 80:80/tcp
+        - 443:443/tcp
+        volumes:
+            [./ssl_private:/etc/ssl/private:ro,
+            ./ssl_certs:/etc/ssl/certs:ro]
+    database:
+        image: mysql:8.0.44-debian
+        environment:
+            MYSQL_ROOT_PASSWORD: root
+        volumes:
+            [./db:/docker-entrypoint-initdb.d:ro]
