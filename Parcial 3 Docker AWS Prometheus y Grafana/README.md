@@ -53,8 +53,8 @@ Por último, queda personalizar tanto Prometheus como Grafana; para ello se pued
 
 ### Imágenes
 
-![Screenshot del despliegue de Docker](/screenshots/docker-deploy.png)
+![Screenshot del despliegue de Docker](./screenshots/docker-deploy.png)
 
-![Screenshot de los targets de Prometheus](/screenshots/docker-deploy.png)
+![Screenshot de los targets de Prometheus](./screenshots/prometheus-targets.png)
 
-![Screenshot del dashboard de Grafana](/screenshots/docker-deploy.png)
+![Screenshot del dashboard de Grafana](./screenshots/grafana-dashboard.png)
