@@ -51,6 +51,18 @@ $ sudo systemctl restart prometheus
 
 Por último, queda personalizar tanto Prometheus como Grafana; para ello se puede hacer manualmente, o aprovechar el archivo de configuración `grafana-imported-dashboard.json` para obtener un dashboard completo de forma sencilla.
 
+### ¿Qué aprendió al integrar Docker, AWS y Prometheus?
+
+Aprendí a orquestar contenedores de forma correcta, y reforcé mis conocimientos de cursos anteriores sobre el despliegue de servidores de producción y el uso de herramientas de monitoreo.
+
+### ¿Qué fue lo más desafiante y cómo lo resolvería en un entorno real?
+
+Lo más desafiante fue hacer que los contenedores se integraran de forma correcta, ya que surgian problemas que no se podían entender a simple vista. La forma de resolverlo sería practicar más con ese tipo de despliegues de multiples contenedores para aprender más sobre ello.
+
+### ¿Qué beneficio aporta la observabilidad en el ciclo DevOps?
+
+La observabilidad permite detectar y resolver problemas de manera proactiva, mejorando la confiabilidad y el rendimiento de las aplicaciones. Facilita la identificación de cuellos de botella, optimiza recursos y mejora la experiencia del usuario final.
+
 ### Imágenes
 
 ![Screenshot del despliegue de Docker](./screenshots/docker-deploy.png)
