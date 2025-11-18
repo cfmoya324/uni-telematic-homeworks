@@ -1,6 +1,6 @@
 services:
     web:
-        image: camilofranco90527/stparcial3apache
+        image: camilofranco90527/stparcial3apache:v1
         ports:
         - 80:80/tcp
         - 443:443/tcp
